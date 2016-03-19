@@ -7,19 +7,40 @@ Description: Raloka - Rumah Apartemen
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags:  Raloka, Rumah, Apartemen
+Template: raloka
 */
 
 @import url("../raloka/style.css");
 
+/*Main Color: #262144
+Secondary Color: #98308A
+Accent Color: #A1C82C
+Background Light: #E9E9E9
+Background Dark: #333333*/
+
+
 .cpost_page ul a.act_me, #wp-calendar #today, .btn-primary, .demo-list-box .active, a.flexMenuToggle:hover, .epl-property-blog-home .epl-property-blog-home-bottom .epl-link, .epl-property-blog-home .epl-property-blog-home-bottom .icon-tags, .btn, input[type="submit"], input[type="button"], .vc_custom_heading:after, h2.widgettitle:after, h3.widget-title:after, .comment-reply-title:after, .epl-template-JV-Style-1 .epl-property-blog:hover .epl-link, .epl-template-JV-Style-1 .epl-property-blog:nth-child(2n):hover .epl-link, .blog-item-description .edit-link, .epl-listing-post-default .property-info .epl-link:hover, #epl-detail-related .property-info .epl-link, .epl-listing-post-default .property-info .price, .nav-menu ul.children > li:hover, .nav-menu ul.sub-menu > li:hover, .nav-menu ul.children > li[class*="current_"], .nav-menu ul.sub-menu > li[class*="current_"], .mega-menu ul.mega-sub-menu > li:hover, .mega-menu ul.mega-sub-menu > li[class*="current_"], .epl-button-wrapper .epl-button, .group-list > span.selected, #toTop, #layoutPage .entry-title:after, .comments-title:after, div.nav-menu > ul > li:before, ul.nav-menu > li:before, ul.mega-menu > li:before, .woocommerce .btn, .demo-list-box .active, #page-shop-sidebar #content ul.tabs li:hover a, #page-shop-sidebar #content ul.tabs li.active a, div.pp_woocommerce a.pp_contract, div.pp_woocommerce a.pp_expand, div.pp_woocommerce .pp_close, div.pp_woocommerce .pp_arrow_next, div.pp_woocommerce .pp_arrow_previous, div.pp_woocommerce .pp_next::before, div.pp_woocommerce .pp_previous::before, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce a.button.alt:hover, #content .woocommerce-tabs ul{
-	background-color: #262144;
+	background-color: #262144 !important;
 }
 
+button:hover, a.button:hover {
+    background-color: #98308A !important;
+}
 
 .logo-table-cell img {
-    max-height: 70%;
+    max-height: 70% !important;
 }
 
 header.scroll-up span#logo-table-cell{
-	max-height: 50%;
+	max-height: 50% !important;
+}
+
+section#Bottom button, .social-links a {
+    background-color: #98308A !important;
+}
+
+
+/*SEARCH PAGE*/
+.epl-property_address_postal_code, .epl-property_address_country, .epl-property_carport, .epl-property_land_area_min, .epl-property_land_area_max, .epl-property_land_area_unit, .epl-property_building_area_min, .epl-property_building_area_max, .epl-property_building_area_unit{
+	display: none !important;
 }
